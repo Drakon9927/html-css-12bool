@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+[class*="col-"] {
+	background-color: #0267EC;
+    text-align: center;
+    padding: 15px;
+    margin: 2px;
+    color: white;
+}
+
+.container{
+    width: 100%;
+}
+
+.bgreen{
+    background-color: #00E165;
+}
+
+.mbottom{
+    margin-bottom: 20px;
+}
+
+.big{
+    padding: 30px;
+}
